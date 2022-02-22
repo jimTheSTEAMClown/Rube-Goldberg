@@ -1,0 +1,19 @@
+// The setup routine runs once when you load the sketch or press reset:
+// This is where you define pin directions
+int LED = 13;
+void setup()
+{
+	// initialize the pins used in this sketch
+	pinMode(LED, OUTPUT); // This LED Builtin in on pin 13
+}
+
+// this "main" loop routine runs over and over again forever:
+void loop()
+{
+	//Set pin 13 to HIGH. This provides 5 volts to the LED and turns it on
+	digitalWrite(LED, HIGH);
+	delay(1000);	//Wait for a second
+	//Set pin 13 LOW and This turns the LED off
+	digitalWrite(LED, LOW);
+	delay(1000);	//Wait for a second
+}

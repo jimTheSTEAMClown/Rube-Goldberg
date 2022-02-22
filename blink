@@ -5,7 +5,7 @@ int LED = 13;
 void setup()
 {
 	// initialize the pins used in this sketch
-	pinMode(LED, OUTPUT); // This LED Builtin in on pin 13
+	pinMode(LED, OUTPUT); // LED where you assigned it on pin 13
 }
 
 // this "main" loop routine runs over and over again forever:

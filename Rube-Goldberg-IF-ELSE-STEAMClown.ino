@@ -28,13 +28,13 @@ void setup() {
   Serial.println(sensor_state);    
   if(sensor_state > 0)
   {
-    Serial.print("The Sensor "); 
+    Serial.print("The Sensor value "); 
     Serial.print(sensor_state); 
     Serial.println(" is True");
   }
   else
   {
-    Serial.print("The Sensor "); 
+    Serial.print("The Sensor value "); 
     Serial.print(sensor_state); 
     Serial.println(" is False");
   }

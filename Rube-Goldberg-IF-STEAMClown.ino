@@ -30,7 +30,7 @@ void setup() {
   {
     Serial.print("The Sensor "); 
     Serial.print(sensor_state); 
-    Serial.println(" is True");
+    Serial.println("value is True");
   }
   Serial.println("Done");
 }

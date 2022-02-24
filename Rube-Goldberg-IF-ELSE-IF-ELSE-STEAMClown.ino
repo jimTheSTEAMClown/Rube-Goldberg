@@ -59,4 +59,5 @@ void loop() {
     Serial.print(x); 
     Serial.println(" is equal to 12");
   }
+  delay(1000);
 }

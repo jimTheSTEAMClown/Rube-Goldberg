@@ -14,7 +14,7 @@ int pos = 0; // variable to store the servo position
 void setup()
 {
   Serial.begin(9600);
-  // pinMode(LED, OUTPUT);
+  pinMode(LED, OUTPUT);
   // pinMode(sensor_input, INPUT);
   my_servo.attach(9); // Servo on pin 9 to servo object 
   pos = 0; // Set position Variable

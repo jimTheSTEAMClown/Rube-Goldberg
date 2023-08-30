@@ -1,10 +1,11 @@
-// This is where you define pin directions
+// This is where you define Variables and Constants
 int LED = 13;
 
 // The setup routine runs once when you load a sketch or press reset:
 void setup()
 {
 	// initialize the pins used in this sketch
+        // This is where you define pin directions
 	pinMode(LED, OUTPUT); // LED where you assigned it on pin 13
 }
 
